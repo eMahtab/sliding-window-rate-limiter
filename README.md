@@ -47,3 +47,28 @@ public class SlidingWindowRateLimiter {
     }
 }
 ```
+### Code Execution Output :
+```
+Request 1 is allowed at 2024-11-09T03:44:57.653659600Z
+Request 2 is allowed at 2024-11-09T03:44:59.005025600Z
+Request 3 is allowed at 2024-11-09T03:45:01.611763900Z
+Request 4 is allowed at 2024-11-09T03:45:02.433560Z
+Request 5 is allowed at 2024-11-09T03:45:05.611305600Z
+Request 6 is denied at 2024-11-09T03:45:06.983263200Z
+Request 7 is allowed at 2024-11-09T03:45:08.210962200Z
+Request 8 is denied at 2024-11-09T03:45:08.787640800Z
+Request 9 is allowed at 2024-11-09T03:45:09.064418600Z
+Request 10 is denied at 2024-11-09T03:45:09.651613500Z
+Request 11 is denied at 2024-11-09T03:45:10.016636300Z
+Request 12 is denied at 2024-11-09T03:45:11.023326500Z
+Request 13 is allowed at 2024-11-09T03:45:12.208614100Z
+Request 14 is allowed at 2024-11-09T03:45:13.072809700Z
+Request 15 is allowed at 2024-11-09T03:45:15.952182800Z
+Request 16 is denied at 2024-11-09T03:45:16.661930Z
+Request 17 is denied at 2024-11-09T03:45:17.518609700Z
+Request 18 is allowed at 2024-11-09T03:45:18.844815300Z
+Request 19 is allowed at 2024-11-09T03:45:19.621371100Z
+Request 20 is denied at 2024-11-09T03:45:20.129543900Z
+Request 21 is denied at 2024-11-09T03:45:20.565489200Z
+Request 22 is allowed at 2024-11-09T03:45:23.631249300Z
+```
