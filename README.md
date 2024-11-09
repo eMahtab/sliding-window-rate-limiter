@@ -47,6 +47,32 @@ public class SlidingWindowRateLimiter {
     }
 }
 ```
+### Code Execution Output :
+```
+Request 1 is allowed at 2024-11-09T04:02:20.262121500Z
+Request 2 is allowed at 2024-11-09T04:02:21.301551800Z
+Request 3 is allowed at 2024-11-09T04:02:22.313791Z
+Request 4 is allowed at 2024-11-09T04:02:23.323556500Z
+Request 5 is allowed at 2024-11-09T04:02:24.339159800Z
+Request 6 is denied at 2024-11-09T04:02:25.353865700Z
+Request 7 is denied at 2024-11-09T04:02:26.366849300Z
+Request 8 is denied at 2024-11-09T04:02:27.381426700Z
+Request 9 is denied at 2024-11-09T04:02:28.382663800Z
+Request 10 is denied at 2024-11-09T04:02:29.398143500Z
+Request 11 is allowed at 2024-11-09T04:02:30.401973100Z
+Request 12 is allowed at 2024-11-09T04:02:31.406325600Z
+Request 13 is allowed at 2024-11-09T04:02:32.417775600Z
+Request 14 is allowed at 2024-11-09T04:02:33.433254Z
+Request 15 is allowed at 2024-11-09T04:02:34.434122Z
+Request 16 is denied at 2024-11-09T04:02:35.435521200Z
+Request 17 is denied at 2024-11-09T04:02:36.447427500Z
+Request 18 is denied at 2024-11-09T04:02:37.462261100Z
+Request 19 is denied at 2024-11-09T04:02:38.477206700Z
+Request 20 is denied at 2024-11-09T04:02:39.478813200Z
+Request 21 is allowed at 2024-11-09T04:02:40.493071400Z
+Request 22 is allowed at 2024-11-09T04:02:41.508283500Z
+```
+
 ### Simulating random delay between requests : Thread.sleep((long)(Math.random() * 3500));
 Sleep randomly between 0 to 3.5 second between requests
 
