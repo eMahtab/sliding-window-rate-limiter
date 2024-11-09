@@ -47,7 +47,10 @@ public class SlidingWindowRateLimiter {
     }
 }
 ```
-### Code Execution Output :
+### Simulating random delay between requests : Thread.sleep((long)(Math.random() * 3500));
+Sleep randomly between 0 to 3.5 second between requests
+
+Code Execution Output :
 ```
 Request 1 is allowed at 2024-11-09T03:44:57.653659600Z
 Request 2 is allowed at 2024-11-09T03:44:59.005025600Z
