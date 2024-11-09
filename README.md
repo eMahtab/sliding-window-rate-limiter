@@ -42,7 +42,7 @@ public class SlidingWindowRateLimiter {
             } else {
                 System.out.println("Request " + (i + 1) + " is denied at " + now);
             }
-            Thread.sleep((long)(Math.random() * 3500));  // Delay of 1 second between requests
+            Thread.sleep(1000);  // Delay of 1 second between requests
         }
     }
 }
